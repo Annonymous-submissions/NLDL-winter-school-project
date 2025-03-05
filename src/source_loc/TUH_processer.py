@@ -1,3 +1,5 @@
+# source: https://github.com/gjoelbye/TCAV-BENDR/blob/development/data_process/TUH_processer.py
+
 import os, sys, pickle, random, datetime, argparse
 import numpy as np
 import matplotlib.pyplot as plt

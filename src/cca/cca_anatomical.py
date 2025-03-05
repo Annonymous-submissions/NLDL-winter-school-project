@@ -70,6 +70,7 @@ def compute_cca(representations, label_data, cca, param_grid, cv):
     logging.info(f"Best CCA params: {best_cca.get_params()}")
     return best_cca
 
+# source: https://github.com/ankitapasad/layerwise-analysis/blob/main/codes/tools/cca_core.py
 def compute_pwcca(X_raw, Y_raw, X_transformed, Y_transformed, cca_corrs):
     """Computes projection weighting for weighting CCA coefficients
 
